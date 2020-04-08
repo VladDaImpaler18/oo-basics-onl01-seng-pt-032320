@@ -7,4 +7,8 @@ class Book
     @name
   end
   
+  def author=(author)
+    @author = author
+  end
+  attr_reader @author
 end
