@@ -3,7 +3,7 @@ class Shoe
     @brand=shoeBrand
   end
   
-  attr_accessor :brand :color :size :material :condition
+  attr_accessor :brand, :color, :size, :material, :condition
   
   def cobble
     @brand ="new"
