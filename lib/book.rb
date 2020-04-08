@@ -10,5 +10,5 @@ class Book
   def author=(author)
     @author = author
   end
-  attr_reader @author
+  attr_reader :author
 end
